@@ -46,3 +46,7 @@ hooks:
         set -x -e
 
         symfony-deploy
+
+dependencies:
+    php:
+        composer/composer: '^2'
