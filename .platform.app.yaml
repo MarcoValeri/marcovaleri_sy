@@ -2,6 +2,10 @@ name: app
 
 type: php:8.2
 
+dependencies:
+    php:
+        composer/composer: '^2'
+
 runtime:
     extensions:
         - apcu
@@ -15,9 +19,6 @@ runtime:
 #    php:
 #        # uncomment on PHP 7.4+
 #        #opcache.preload: config/preload.php
-dependencies:
-    php:
-        composer/composer: '^2'
 
 build:
     flavor: none
